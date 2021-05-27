@@ -1,0 +1,222 @@
+/*Barra de navegacion*/
+#teenlogonavbar{
+    padding:  5px 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:#f9aa45 ;
+    font-size: 30px;
+}
+
+#navitem{
+ color: black;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 20px;
+ padding:0px 30px;
+}
+#navitem:hover{
+    border-radius: 10px;
+       color: #f9aa45 ;
+       background-color: rgba(170, 170, 170, 0.1);
+}
+
+  
+/*Banner*/
+.banner{
+	height:450px;
+	background-size: cover;
+	background-position: center;
+	transition: all .1s ease-out;
+	background-image: url('../img/img-index/banner-1.jpg');
+	animation: banner 6s infinite linear;
+}
+.banner-content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	background-color: rgba(0, 22, 40, .6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#titleteen{
+    color: #f9aa45;
+}
+#banner-content a{
+	text-decoration: none;
+	color: #f9aa45;
+	padding: 9px 20px;
+	border: 1px solid #f9aa45;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+}
+#banner-content a:hover{
+	background-color: #f9aa45;
+	color: #fff;
+    font-size: 20px;
+}
+
+#bannertext{
+    text-align: center;
+    margin: 0px 250px;
+}
+
+@keyframes banner{
+	0%{
+		background-image: url('../Img/img-index/banner/banner-1.jpg');
+	}
+	25%{
+		background-image: url('../Img/img-index/banner/banner-1.jpg');
+	}
+
+	26%{
+		background-image: url('../Img/img-index/banner/banner-2.jpg');
+	}
+	50%{
+		background-image: url('../Img/img-index/banner/banner-2.jpg');
+	}
+
+
+	51%{
+		background-image: url('../Img/img-index/banner/banner-3.jpg');
+	}
+	75%{
+		background-image: url('../Img/img-index/banner/banner-3.jpg');
+	}
+	
+
+	76%{
+		background-image: url('../Img/img-index/banner/banner-4.jpg');
+	}
+	100%{
+		background-image: url('../Img/img-index/banner/banner-4.jpg');
+	}
+
+}
+
+#bannertext{
+    text-align: center;
+    margin: 0px 250px;
+}
+
+/*Iconos de informacion*/
+
+#mid{
+margin-top: 10px;
+}
+#iconsmid{
+color:#FFF;
+line-height: 1.5; 
+text-decoration: none;
+}
+
+#iconsmid:hover{
+color: #C87100;
+}
+    
+#midiconspage{
+text-align:center;
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+font-size: 15px;
+}
+    
+#backgroundmidcolor{
+background-color: #f9aa45; 
+border-radius: 5px;
+border-style: inset;
+text-align: center;
+color: #fff;
+transition: all .5s ease;
+cursor: pointer;
+}
+
+#backgroundmidcolor:hover{
+background-color: #FF9F21;
+color: #DFDAD4;
+}
+     
+#bot{
+text-align: center;
+
+background-color:#f9aa45;
+color: white;
+
+}
+#bottest{
+font-family: 'Montserrat';
+font-size: 3rem;
+line-height: 1.5;
+
+
+}
+
+#image-car{
+  margin: 5% 5% ;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    
+}
+
+.carrusel-item{
+padding: 7% 15%;
+}
+#ptagcar{
+width: 200px;
+height: 200px;
+}
+
+#textcarrousel{ 
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+#button-column {
+	padding: 10px 0;
+	text-decoration: none;
+    background: none;
+	color: white;
+	transition: all .3s ease-in-out;
+}
+#button-column:hover{
+	color: rgba(255, 255, 255, 0.493);
+	
+}
+
+/* footer*/
+
+#footer{
+	color: #f9aa45;
+	background: rgba(175, 174, 174, 0.199);
+	margin: 10px 0;
+}
+#foot-icon{
+	color: #f9aa45;
+}
+#info{
+	text-align: center;
+}
+
+#buttonfo{
+	text-decoration: none;
+	color: #f9aa45;
+	padding: 9px 20px;
+	border: 1px solid #f9aa45;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+}
+#buttonfo:hover{
+	background-color: #f9aa45;
+	color: #fff;
+    font-size: 19px;
+}
+
+#link-footer{
+ text-decoration: none;
+ color: #C87100;
+}
